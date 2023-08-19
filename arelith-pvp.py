@@ -14,6 +14,12 @@ str = 0
 dex = 0
 con = 0
 
+#Create Player 1 (Fighter)
+player1 = Character(char_class="Fighter", hp_die=10, level=30, ac=25, ab=15,
+                    apr=4, damage_die=12, spell_damage_die=0, will_save=8,
+                    reflex_save=8, fortitude_save=12, strength=20, dexterity=14,
+                    constitution=18)
+
 #Create Player 2
 class = wizard
 wizard_hp = CON * 
@@ -29,6 +35,12 @@ fortitude _save = 0
 str = 0
 dex = 0
 con = 0
+
+#Create Player 2 (Wizard)
+player2 = Character(char_class="Wizard", hp_die=4, level=30, ac=15, ab=8,
+                    apr=3, damage_die=4, spell_damage_die=6, will_save=12,
+                    reflex_save=8, fortitude_save=5, strength=10, dexterity=12,
+                    constitution=14)
 
 #Dice Roll
 dice_roll = 1d20
