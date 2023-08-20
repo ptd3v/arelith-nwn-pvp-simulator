@@ -1,18 +1,20 @@
 #Create Player 1
 class = fighter
 fighter_level = 30
-fighter_hp = CON * 
-AC = 0
-AB = 0
+fighter_hp = CON * 1d10
+AC = 48
+AB = 52/
 APR = 4
-damage = 0 #Fighter Only
+crit_range = 10 - 20
+damage = 1d8 #Fighter Only
 spell_damage = 0 #Wizard Only
-will_save = 0
-reflex_save = 0
-fortitude _save = 0
-str = 0
-dex = 0
-con = 0
+will_save = 30
+reflex_save = 30
+fortitude _save = 40
+str = 40
+dex = 12
+con = 32
+
 
 #Create Player 1 (Fighter)
 player1 = Character(char_class="Fighter", hp_die=10, level=30, ac=25, ab=15,
