@@ -17,7 +17,6 @@ str = 40
 dex = 12
 con = 32
 
-
 #Create Player 1 (Fighter)
 player1 = Character(char_class="Fighter", hp_die=10, level=30, ac=25, ab=15,
                     apr=4, damage_die=12, spell_damage_die=0, will_save=8,
