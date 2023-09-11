@@ -2,6 +2,8 @@
 #
 
 #Create Player 1
+select class = (input.read)
+
 class = fighter
 fighter_level = 30
 fighter_hp = CON * 1d10
