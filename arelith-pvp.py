@@ -4,7 +4,7 @@
 #Barbarian, RDDSorc, Fighter, Weapon Master, Wizards, w
 
 #Select Class, 
-select class = (input.read)
+select class = input()
 
 class = fighter
 fighter_level = 30
