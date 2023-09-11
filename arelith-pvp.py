@@ -1,7 +1,9 @@
 #Import UI elements
-#
+#Amount of classes = 12?
+#Race = (Human, Elf, Half-Elf, Gnome, Firbolg, Half-Giant, Frost Half-Giant, Fire Half-Giant, Stone Half-Giant, Drow, Minotaur, Halfling)
+#Barbarian, RDDSorc, Fighter, Weapon Master, Wizards, w
 
-#Create Player 1
+#Select Class, 
 select class = (input.read)
 
 class = fighter
