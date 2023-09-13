@@ -44,7 +44,7 @@ str = 0
 dex = 0
 con = 0
 
-#Create Player 2 (Wizard)
+#Create Player 2
 player2 = Character(char_class="Wizard", hp_die=4, level=30, ac=15, ab=8,
                     apr=3, damage_die=4, spell_damage_die=6, will_save=12,
                     reflex_save=8, fortitude_save=5, strength=10, dexterity=12,
